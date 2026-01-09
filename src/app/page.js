@@ -4,6 +4,7 @@ import RotatingSettings from "@/components/ui/RotatingSettings";
 import RightIconNav from "@/components/ui/RightIconNav";
 import Hero from "@/components/sections/Hero";
 import Projects from "@/components/sections/Projects";
+import About from "@/components/sections/About";
 
 export default function Home() {
   return (
@@ -54,6 +55,7 @@ export default function Home() {
         "
       >
         <Hero></Hero>
+        <About></About>
         <Services />
         <Projects></Projects>
       </section>
