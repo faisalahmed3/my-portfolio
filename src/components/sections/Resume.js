@@ -80,9 +80,9 @@ export default function Resume() {
 
             {/* INTERNSHIP */}
             <motion.div variants={item} className="relative">
-              <span className="absolute -left-[52px] top-2 w-3 h-3 rounded-full bg-emerald-400" />
-              <p className="text-sm text-gray-400 mb-3">
-                Dec 2025 – Present
+              <span className="absolute -left-[52px] top-2 w-3 h-3 rounded-full bg-emerald-400 " />
+              <p className="text-sm text-gray-400 mb-3 hover:text-emerald-400 ">
+                Oct 2025 – Present
               </p>
 
               <h3 className="text-white text-lg">
@@ -110,7 +110,7 @@ export default function Resume() {
             {/* EDUCATION */}
             <motion.div variants={item} className="relative">
               <span className="absolute -left-[52px] top-2 w-3 h-3 rounded-full bg-emerald-400" />
-              <p className="text-sm text-gray-400 mb-3">
+              <p className="text-sm text-gray-400 mb-3 hover:text-emerald-400">
                 2022 – Present
               </p>
 

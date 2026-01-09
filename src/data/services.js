@@ -1,26 +1,28 @@
+import { FaCode, FaLayerGroup, FaServer } from "react-icons/fa";
+
 export const services = [
   {
     id: "01",
     title: "Frontend Development",
     description:
-      "Building responsive, accessible, and scalable user interfaces using React, Next.js, and Tailwind CSS.",
+      "Building responsive, accessible, and high-performance user interfaces using React, Next.js, Tailwind CSS, and modern UI patterns.",
+    projects: "10+ Projects",
+    icon: FaLayerGroup,
   },
   {
     id: "02",
-    title: "Backend Development",
+    title: "Full Stack Development",
     description:
-      "Designing secure REST APIs and server-side logic using Node.js, Express, MongoDB, and JWT authentication.",
+      "Developing scalable MERN stack applications with secure APIs, authentication, database design, and clean architecture.",
+    projects: "18+ Projects",
+    icon: FaCode,
   },
   {
     id: "03",
-    title: "Full-Stack Applications",
+    title: "Backend & API Development",
     description:
-      "Developing complete MERN stack applications from database design to production deployment.",
-  },
-  {
-    id: "04",
-    title: "Team Leadership & Collaboration",
-    description:
-      "Leading development teams, conducting code reviews, and delivering real-world projects in fast-paced environments.",
+      "Designing RESTful APIs with Node.js and Express, integrating MongoDB, and ensuring performance, security, and scalability.",
+    projects: "8+ Projects",
+    icon: FaServer,
   },
 ];
