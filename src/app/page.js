@@ -3,6 +3,7 @@ import Services from "@/components/sections/Services";
 import RotatingSettings from "@/components/ui/RotatingSettings";
 import RightIconNav from "@/components/ui/RightIconNav";
 import Hero from "@/components/sections/Hero";
+import Projects from "@/components/sections/Projects";
 
 export default function Home() {
   return (
@@ -54,6 +55,7 @@ export default function Home() {
       >
         <Hero></Hero>
         <Services />
+        <Projects></Projects>
       </section>
     </main>
   );
