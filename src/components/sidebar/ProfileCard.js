@@ -1,7 +1,12 @@
 "use client";
 
 import Image from "next/image";
-import { FaFacebookF, FaLinkedinIn, FaInstagram, FaGithub } from "react-icons/fa";
+import {
+  FaFacebookF,
+  FaLinkedinIn,
+  FaInstagram,
+  FaGithub,
+} from "react-icons/fa";
 
 export default function ProfileCard() {
   return (
@@ -31,7 +36,7 @@ export default function ProfileCard() {
             </span>
           </h2>
 
-          <p className="flex flex-col text-base text-right">
+          <p className="flex flex-col text-base text-right text-gray-300">
             Full Stack Developer
             <span className="text-emerald-200">(MERN)</span>
           </p>
@@ -49,7 +54,13 @@ export default function ProfileCard() {
             overflow-hidden
           "
         >
-          <Image src="/me.jpg" alt="MD. Faisal Ahmed" fill className="object-cover" priority />
+          <Image
+            src="/me.jpg"
+            alt="MD. Faisal Ahmed"
+            fill
+            className="object-cover"
+            priority
+          />
         </div>
 
         <p className="mt-6 text-emerald-200 text-lg break-all">
@@ -59,24 +70,86 @@ export default function ProfileCard() {
 
       {/* BOTTOM */}
       <div>
-        <p className="text-emerald-300/70 text-center mb-4">+8801876141732</p>
+        <p className="text-emerald-300/70 text-center mb-4">
+          +8801876141732
+        </p>
 
         <p className="text-xs text-emerald-300/70 text-center mb-6">
           © {new Date().getFullYear()} Faisal. All Rights Reserved
         </p>
 
+        {/* SOCIAL LINKS */}
         <div className="flex justify-center gap-4 mb-6">
-          <a href="https://www.facebook.com/faisal.ahmed.58115" target="_blank" rel="noreferrer">
-            <FaFacebookF className="icon" />
+          <a
+            href="https://www.facebook.com/faisal.ahmed.58115"
+            target="_blank"
+            rel="noreferrer"
+            aria-label="Facebook"
+            className="
+              w-10 h-10 rounded-full
+              border border-emerald-400/30
+              flex items-center justify-center
+              text-emerald-300
+              hover:text-emerald-400
+              hover:border-emerald-400
+              transition
+            "
+          >
+            <FaFacebookF />
           </a>
-          <a href="https://www.linkedin.com/in/faisal-ahmed4417/" target="_blank" rel="noreferrer">
-            <FaLinkedinIn className="icon" />
+
+          <a
+            href="https://www.linkedin.com/in/faisal-ahmed4417/"
+            target="_blank"
+            rel="noreferrer"
+            aria-label="LinkedIn"
+            className="
+              w-10 h-10 rounded-full
+              border border-emerald-400/30
+              flex items-center justify-center
+              text-emerald-300
+              hover:text-emerald-400
+              hover:border-emerald-400
+              transition
+            "
+          >
+            <FaLinkedinIn />
           </a>
-          <a href="https://www.instagram.com/_faisal_ahmed132/" target="_blank" rel="noreferrer">
-            <FaInstagram className="icon" />
+
+          <a
+            href="https://www.instagram.com/_faisal_ahmed132/"
+            target="_blank"
+            rel="noreferrer"
+            aria-label="Instagram"
+            className="
+              w-10 h-10 rounded-full
+              border border-emerald-400/30
+              flex items-center justify-center
+              text-emerald-300
+              hover:text-emerald-400
+              hover:border-emerald-400
+              transition
+            "
+          >
+            <FaInstagram />
           </a>
-          <a href="https://github.com/faisalahmed3" target="_blank" rel="noreferrer">
-            <FaGithub className="icon" />
+
+          <a
+            href="https://github.com/faisalahmed3"
+            target="_blank"
+            rel="noreferrer"
+            aria-label="GitHub"
+            className="
+              w-10 h-10 rounded-full
+              border border-emerald-400/30
+              flex items-center justify-center
+              text-emerald-300
+              hover:text-emerald-400
+              hover:border-emerald-400
+              transition
+            "
+          >
+            <FaGithub />
           </a>
         </div>
 
@@ -92,24 +165,6 @@ export default function ProfileCard() {
           Hire Me
         </button>
       </div>
-
-      <style jsx>{`
-        .icon {
-          width: 40px;
-          height: 40px;
-          border-radius: 9999px;
-          border: 1px solid rgba(52, 211, 153, 0.3);
-          display: flex;
-          align-items: center;
-          justify-content: center;
-          color: #6ee7b7;
-          transition: all 0.2s ease;
-        }
-        .icon:hover {
-          color: #34d399;
-          border-color: #34d399;
-        }
-      `}</style>
     </div>
   );
 }

@@ -1,8 +1,8 @@
 import ProfileCard from "@/components/sidebar/ProfileCard";
-import Hero from "@/components/sections/Hero";
 import Services from "@/components/sections/Services";
 import RotatingSettings from "@/components/ui/RotatingSettings";
 import RightIconNav from "@/components/ui/RightIconNav";
+import Hero from "@/components/sections/Hero";
 
 export default function Home() {
   return (
@@ -52,7 +52,7 @@ export default function Home() {
           xl:px-16
         "
       >
-        <Hero />
+        <Hero></Hero>
         <Services />
       </section>
     </main>
