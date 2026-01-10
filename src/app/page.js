@@ -62,6 +62,7 @@ export default function Home() {
         <Resume></Resume>
         <Services />
         <Skills></Skills>
+        <Projects></Projects>
         <Contact></Contact>
       </section>
     </main>
