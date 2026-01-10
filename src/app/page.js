@@ -11,7 +11,7 @@ import Contact from "@/components/sections/Contact";
 
 export default function Home() {
   return (
-    <main className="bg-[#0B0F14] min-h-screen relative overflow-x-hidden">
+    <main className=" min-h-screen relative overflow-x-hidden">
       
       {/* LEFT AREA
          - Mobile/Tablet/Laptop ( < xl ): normal flow (NOT fixed)
