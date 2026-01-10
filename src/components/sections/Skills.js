@@ -84,10 +84,10 @@ export default function Skills() {
                 lg:h-[180px]
                 rounded-[100px]
                 sm:rounded-[120px]
-                border border-white/20
+                border-2 border-white/20
                 bg-white/[0.02]
                 transition
-                hover:border-emerald-400/60
+                hover:border-emerald-400
               "
             >
               {/* ICON */}

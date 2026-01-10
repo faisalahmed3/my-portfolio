@@ -7,6 +7,7 @@ import Projects from "@/components/sections/Projects";
 import About from "@/components/sections/About";
 import Resume from "@/components/sections/Resume";
 import Skills from "@/components/sections/Skills";
+import Contact from "@/components/sections/Contact";
 
 export default function Home() {
   return (
@@ -61,7 +62,7 @@ export default function Home() {
         <Resume></Resume>
         <Services />
         <Skills></Skills>
-        <Projects></Projects>
+        <Contact></Contact>
       </section>
     </main>
   );
