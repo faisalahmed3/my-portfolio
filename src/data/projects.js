@@ -44,8 +44,8 @@ export const featuredProjects = [
     "MongoDB",
   ],
   image: "/projects/Savorly.png",
-  live: "https://savorly-demo.vercel.app",
-  client: "https://savorly-faisal-ahmed.netlify.app/",
+  live: "https://savorly-faisal-ahmed.netlify.app/",
+  client: "https://github.com/faisalahmed3/savorly-client",
   server: "https://github.com/faisalahmed3/savorly-server",
 },
 
