@@ -9,7 +9,7 @@ export default function Projects() {
   return (
     <section
       id="projects"
-      className="relative py-20 sm:py-24 lg:py-28"
+      className="relative lg:mx-12 xl:mx-24 py-20 sm:py-24 lg:py-28"
     >
       <div className="max-w-[1200px] mx-auto px-4 sm:px-6 xl:px-10">
 
@@ -28,7 +28,7 @@ export default function Projects() {
         </div>
 
         {/* GRID */}
-        <div className="grid grid-cols-12 gap-6 sm:gap-8 lg:gap-10">
+        <div className="grid xl:mx-10 grid-cols-12 gap-6 sm:gap-8 lg:gap-10">
           <ProjectCard project={projects[0]} span="col-span-12" />
 
           <ProjectCard

@@ -1,4 +1,7 @@
-export const featuredProjects = [
+// src/data/allProjects.js
+
+export const allProjects = [
+  // ===== FEATURED ONES (can repeat safely) =====
   {
   title: "TorkBiz – Business & Trading Website Template",
   description: "A modern business and trading website template built during my Internship at NexGenix in collaboration with Tork Company. I led the team and implemented multiple pages, core features, theming, and reusable components with Next.js, Bootstrap 5, SASS, and animations.",
@@ -66,8 +69,63 @@ export const featuredProjects = [
   image: "/projects/agrishield02.png",
   live: "https://agri-shield-xi.vercel.app",
   repo: "https://github.com/Disa44ay/Agri-shield", // monorepo (frontend + backend)
-}
+},
 
+  {
+  title: "ConnectCare – Doctor Appointment Booking Platform",
+  description:
+    "A full-stack doctor appointment booking platform that allows users to browse doctors, view detailed profiles, and securely book and manage appointments using Firebase authentication and a RESTful backend.",
+  tech: [
+    "React",
+    "Vite",
+    "Tailwind",
+    "DaisyUI",
+    "Firebase",
+    "Node.js",
+    "Express",
+    "MongoDB",
+  ],
+  image: "/projects/connectcare.png",
+  live: "https://connect-care-web.netlify.app/",
+  repo: "https://github.com/faisalahmed3/connect-care",
+},
+{
+  title: "MinoxaCare – Minoxidil Product Landing & Order System",
+  description:
+    "A high-conversion single-page product landing and ordering application for Minoxidil hair regrowth treatment, designed for Bangladeshi users. The platform educates users, builds trust, and enables Cash on Delivery orders with real-time price calculation and EmailJS-based order notifications.",
+  tech: [
+    "React",
+    "Vite",
+    "Tailwind",
+    "React Router",
+    "EmailJS",
+    "SweetAlert2",
+  ],
+  image: "/projects/minoxacare.png",
+  live: "https://minoxacare.vercel.app",
+  repo: "https://github.com/faisalahmed3/minoxacare",
+},
+  {
+    title: "LectureLab – Learning Platform",
+    description:
+      "Role-based learning platform for students and instructors with resource sharing and class management.",
+    tech: ["React", "JWT", "Express", "MongoDB"],
+    image: "/projects/lecturelab.png",
+    live: "https://lecturelab-faisal-ahmed.netlify.app/",
+    client: "https://github.com/faisalahmed3/LectureLab-Client",
+    server: "https://github.com/faisalahmed3/LectureLab-Server",
+  },
+  
+  {
+    title: "PowerPlay – Athletic Event Platform",
+    description:
+      "A platform to book, manage, and create athletic events with secure authentication and dashboards.",
+    tech: ["React", "Firebase", "MongoDB", "Express"],
+    image: "/projects/powerplay02.png",
+    live: "https://powerplay-demo.vercel.app",
+    client: "https://github.com/faisalahmed3/powerplay-client",
+    server: "https://github.com/faisalahmed3/powerplay-server",
+  },
 
+  
 ];
-
