@@ -6,9 +6,17 @@ import {
   FaLinkedinIn,
   FaInstagram,
   FaGithub,
+  FaEnvelope,
 } from "react-icons/fa";
 
 export default function ProfileCard() {
+  const scrollToContact = () => {
+    const el = document.getElementById("contact");
+    if (el) {
+      el.scrollIntoView({ behavior: "smooth", block: "start" });
+    }
+  };
+
   return (
     <div
       className="
@@ -85,15 +93,9 @@ export default function ProfileCard() {
             target="_blank"
             rel="noreferrer"
             aria-label="Facebook"
-            className="
-              w-10 h-10 rounded-full
-              border border-emerald-400/30
-              flex items-center justify-center
-              text-emerald-300
-              hover:text-emerald-400
-              hover:border-emerald-400
-              transition
-            "
+            className="w-10 h-10 rounded-full border border-emerald-400/30
+                       flex items-center justify-center text-emerald-300
+                       hover:text-emerald-400 hover:border-emerald-400 transition"
           >
             <FaFacebookF />
           </a>
@@ -103,15 +105,9 @@ export default function ProfileCard() {
             target="_blank"
             rel="noreferrer"
             aria-label="LinkedIn"
-            className="
-              w-10 h-10 rounded-full
-              border border-emerald-400/30
-              flex items-center justify-center
-              text-emerald-300
-              hover:text-emerald-400
-              hover:border-emerald-400
-              transition
-            "
+            className="w-10 h-10 rounded-full border border-emerald-400/30
+                       flex items-center justify-center text-emerald-300
+                       hover:text-emerald-400 hover:border-emerald-400 transition"
           >
             <FaLinkedinIn />
           </a>
@@ -121,15 +117,9 @@ export default function ProfileCard() {
             target="_blank"
             rel="noreferrer"
             aria-label="Instagram"
-            className="
-              w-10 h-10 rounded-full
-              border border-emerald-400/30
-              flex items-center justify-center
-              text-emerald-300
-              hover:text-emerald-400
-              hover:border-emerald-400
-              transition
-            "
+            className="w-10 h-10 rounded-full border border-emerald-400/30
+                       flex items-center justify-center text-emerald-300
+                       hover:text-emerald-400 hover:border-emerald-400 transition"
           >
             <FaInstagram />
           </a>
@@ -139,29 +129,27 @@ export default function ProfileCard() {
             target="_blank"
             rel="noreferrer"
             aria-label="GitHub"
-            className="
-              w-10 h-10 rounded-full
-              border border-emerald-400/30
-              flex items-center justify-center
-              text-emerald-300
-              hover:text-emerald-400
-              hover:border-emerald-400
-              transition
-            "
+            className="w-10 h-10 rounded-full border border-emerald-400/30
+                       flex items-center justify-center text-emerald-300
+                       hover:text-emerald-400 hover:border-emerald-400 transition"
           >
             <FaGithub />
           </a>
         </div>
 
+        {/* HIRE ME BUTTON */}
         <button
+          onClick={scrollToContact}
           className="
             w-full py-3 rounded-full font-medium text-black
             bg-[linear-gradient(110deg,#34d399,#22c55e,#4ade80)]
             shadow-[0_0_25px_rgba(52,211,153,0.5)]
             hover:shadow-[0_0_45px_rgba(52,211,153,0.8)]
             transition
+            flex items-center justify-center gap-2
           "
         >
+          <FaEnvelope />
           Hire Me
         </button>
       </div>

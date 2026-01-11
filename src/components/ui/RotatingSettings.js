@@ -14,6 +14,7 @@ export default function RotatingSettings() {
         translate-y-2
         w-10
         h-10
+        rounded-full
         flex items-center justify-center
         text-emerald-400
         bg-[#0B1220]
