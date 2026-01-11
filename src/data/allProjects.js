@@ -46,7 +46,7 @@ export const allProjects = [
     "Express",
     "MongoDB",
   ],
-  image: "/projects/savorly.png",
+  image: "/projects/Savorly.png",
   live: "https://savorly-demo.vercel.app",
   client: "https://savorly-faisal-ahmed.netlify.app/",
   server: "https://github.com/faisalahmed3/savorly-server",
