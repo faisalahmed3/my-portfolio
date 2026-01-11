@@ -16,6 +16,7 @@ import {
 } from "react-icons/fa";
 import { HiOutlineDocumentText, HiOutlineCode } from "react-icons/hi";
 import { MdOutlineLayers } from "react-icons/md";
+import { TbCertificate } from "react-icons/tb";
 
 /* ---------------- NAV ITEMS (MATCHES SECTION ORDER) ---------------- */
 
@@ -26,8 +27,10 @@ const navItems = [
   { id: "services", label: "Services", icon: MdOutlineLayers },
   { id: "skills", label: "Skills", icon: HiOutlineCode },
   { id: "projects", label: "Projects", icon: FaFolderOpen },
+  { id: "certificates", label: "Certificates", icon: TbCertificate },
   { id: "contact", label: "Contact", icon: FaEnvelope },
 ];
+
 
 /* ---------------- SOCIAL ---------------- */
 

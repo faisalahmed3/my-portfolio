@@ -8,6 +8,7 @@ import About from "@/components/sections/About";
 import Resume from "@/components/sections/Resume";
 import Skills from "@/components/sections/Skills";
 import Contact from "@/components/sections/Contact";
+import Certificates from "@/components/sections/Certificates";
 
 export default function Home() {
   return (
@@ -60,9 +61,10 @@ export default function Home() {
         <Hero></Hero>
         <About></About>
         <Resume></Resume>
-        <Services />
+        <Services></Services>
         <Skills></Skills>
         <Projects></Projects>
+        <Certificates></Certificates>
         <Contact></Contact>
       </section>
     </main>
