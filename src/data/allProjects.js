@@ -9,10 +9,27 @@ export const allProjects = [
   live: "https://torkbiz-bootstrap.vercel.app/",
   image: "/projects/torkbiz.png",
   repo: "https://github.com/thenexgenix/Torkbiz-bootstrap",
-}
-,
+},
   
- 
+  {
+  title: "Savorly – Recipe Management Platform",
+  description:
+    "A solo full-stack recipe management platform that I designed and developed end-to-end, combining a clean, user-friendly interface with a robust backend. The system supports secure authentication, user-specific dashboards, recipe creation and management, a like system, and scalable RESTful APIs powered by MongoDB.",
+  tech: [
+    "React",
+    "Tailwind CSS",
+    "DaisyUI",
+    "Firebase",
+    "Node.js",
+    "Express",
+    "MongoDB",
+  ],
+  image: "/projects/Savorly.png",
+  live: "https://savorly-faisal-ahmed.netlify.app/",
+  client: "https://github.com/faisalahmed3/savorly-client",
+  server: "https://github.com/faisalahmed3/savorly-server",
+},
+
   {
   title: "E-Tutor – Full-Stack E-Learning Platform",
   description:
@@ -33,24 +50,7 @@ export const allProjects = [
 },
 
 
-  {
-  title: "Savorly – Recipe Management Platform",
-  description:
-    "A solo full-stack recipe management platform that I designed and developed end-to-end, combining a clean, user-friendly interface with a robust backend. The system supports secure authentication, user-specific dashboards, recipe creation and management, a like system, and scalable RESTful APIs powered by MongoDB.",
-  tech: [
-    "React",
-    "Tailwind CSS",
-    "DaisyUI",
-    "Firebase",
-    "Node.js",
-    "Express",
-    "MongoDB",
-  ],
-  image: "/projects/Savorly.png",
-  live: "https://savorly-faisal-ahmed.netlify.app/",
-  client: "https://github.com/faisalahmed3/savorly-client",
-  server: "https://github.com/faisalahmed3/savorly-server",
-},
+ 
 
 
 {
@@ -70,7 +70,22 @@ export const allProjects = [
   live: "https://agri-shield-xi.vercel.app",
   repo: "https://github.com/Disa44ay/Agri-shield", // monorepo (frontend + backend)
 },
-
+{
+  title: "MinoxaCare – Minoxidil Product Landing & Order System",
+  description:
+    "A high-conversion single-page product landing and ordering application for Minoxidil hair regrowth treatment, designed for Bangladeshi users. The platform educates users, builds trust, and enables Cash on Delivery orders with real-time price calculation and EmailJS-based order notifications.",
+  tech: [
+    "React",
+    "Vite",
+    "Tailwind",
+    "React Router",
+    "EmailJS",
+    "SweetAlert2",
+  ],
+  image: "/projects/minoxacare.png",
+  live: "https://minoxacare.vercel.app",
+  repo: "https://github.com/faisalahmed3/minoxacare",
+},
   {
   title: "ConnectCare – Doctor Appointment Booking Platform",
   description:
@@ -89,22 +104,7 @@ export const allProjects = [
   live: "https://connect-care-web.netlify.app/",
   repo: "https://github.com/faisalahmed3/connect-care",
 },
-{
-  title: "MinoxaCare – Minoxidil Product Landing & Order System",
-  description:
-    "A high-conversion single-page product landing and ordering application for Minoxidil hair regrowth treatment, designed for Bangladeshi users. The platform educates users, builds trust, and enables Cash on Delivery orders with real-time price calculation and EmailJS-based order notifications.",
-  tech: [
-    "React",
-    "Vite",
-    "Tailwind",
-    "React Router",
-    "EmailJS",
-    "SweetAlert2",
-  ],
-  image: "/projects/minoxacare.png",
-  live: "https://minoxacare.vercel.app",
-  repo: "https://github.com/faisalahmed3/minoxacare",
-},
+
   {
     title: "LectureLab – Learning Platform",
     description:
@@ -126,6 +126,23 @@ export const allProjects = [
     client: "https://github.com/faisalahmed3/powerplay-client",
     server: "https://github.com/faisalahmed3/powerplay-server",
   },
+  {
+  title: "Flower Mart – Full-Stack Flower Shop Platform",
+  description:
+    "A full-stack flower shop application featuring live product data, API-powered cart functionality, and a clean, responsive user interface. I worked as the Project Coordinator, overseeing frontend–backend integration, API flow, and overall project execution.",
+  tech: [
+    "React",
+    "Vite",
+    "Tailwind",
+    "Node.js",
+    "Express",
+    "MongoDB",
+  ],
+  image: "/projects/flowermart.png",
+  live: "https://flower-mart.netlify.app",
+  repo: "https://github.com/faisalahmed3/flower-mart",
+}
+
 
   
 ];
