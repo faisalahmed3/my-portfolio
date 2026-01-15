@@ -42,6 +42,13 @@ const certificates = [
       "Completed leadership program focused on communication and impact. Founded at Harvard University.",
     image: "/certificates/leadership.jpg",
   },
+  {
+  title: "Campus Ambassador Team Lead Certificate",
+  description:
+    "Recognized for outstanding leadership and contributions as Team Lead of the Campus Ambassadors at EduUp Consultancy.",
+  image: "/certificates/campus-ambassador.jpg",
+},
+
 ];
 
 export default function Certificates() {

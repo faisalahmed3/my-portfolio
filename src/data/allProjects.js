@@ -141,6 +141,19 @@ export const allProjects = [
   image: "/projects/flowermart.png",
   live: "https://flower-mart.netlify.app",
   repo: "https://github.com/faisalahmed3/flower-mart",
+},
+{
+  title: "Aspire to Innovate – Technology & Leadership Webinar",
+  description:
+    "A technology-focused webinar where I spoke on MERN stack development and built the official webinar website.",
+  tech: [
+    "React",
+    "Vite",
+    "Tailwind CSS",
+    "DaisyUI",
+  ],
+  image: "/projects/webinar.png",
+  live: "https://aspire-to-innovate-webinar.thenexgenix.com/",
 }
 
 
