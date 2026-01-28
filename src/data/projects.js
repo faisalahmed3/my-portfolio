@@ -1,33 +1,31 @@
 export const featuredProjects = [
   {
+  title: "Aspire Internship – Official Internship Program Website",
+  description:
+    "The official website of the Aspire Internship Program, built to manage internship Program, registrations, and communication. I worked as the Team Lead and full-time Frontend Developer, handling the complete UI architecture, API integration, user flows, and feature implementation while collaborating with a Django-based backend.",
+  tech: [
+    "Next.js",
+    "React",
+    "Tailwind CSS",
+    "EmailJS",
+    "SweetAlert2",
+    "Swiper",
+    "Django (Backend)"
+  ],
+  image: "/projects/aip.png",
+  live: "https://aspireinternship.thenexgenix.com/",
+},
+
+  {
   title: "TorkBiz – Business & Trading Website Template",
   description: "A modern business and trading website template built during my Internship at NexGenix in collaboration with Tork Company. I led the team and implemented multiple pages, core features, theming, and reusable components with Next.js, Bootstrap 5, SASS, and animations.",
   tech: ["Next.js", "Bootstrap 5", "SASS", "AOS"],
   live: "https://torkbiz-bootstrap.vercel.app/",
   image: "/projects/torkbiz.png",
   repo: "https://github.com/thenexgenix/Torkbiz-bootstrap",
-}
-,
+},
   
  
-  {
-  title: "E-Tutor – Full-Stack E-Learning Platform",
-  description:
-    "A large-scale multi-page e-learning platform developed as part of my Internship at NexGenix, where I also served as the Team Lead. The system features student and instructor dashboards, course management, checkout flow, messaging, and structured routing using Next.js App Router. I led the project architecture, folder structure design, and frontend implementation while collaborating on backend development using Node.js, Express, and MongoDB.",
-  tech: [
-    "Next.js",
-    "React",
-    "Tailwind CSS",
-    "Node.js",
-    "Express",
-    "MongoDB",
-    "JavaScript",
-    "Figma",
-  ],
-  image: "/projects/e-tutor.png",
-  live: "https://etutor-navy.vercel.app/",
-  repo: "https://github.com/thenexgenix/e-tutor", // monorepo (frontend + backend)
-},
 
 
   {

@@ -126,7 +126,7 @@ export default function Hero() {
         >
           <div>
             <div className="text-emerald-400 font-light text-[56px] sm:text-[64px]">
-              18+
+              13+
             </div>
             <div className="mt-2 text-[11px] tracking-widest text-gray-400 leading-5">
               PROJECTS <br /> COMPLETED

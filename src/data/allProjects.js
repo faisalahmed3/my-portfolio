@@ -2,6 +2,23 @@
 
 export const allProjects = [
   // ===== FEATURED ONES (can repeat safely) =====
+   {
+  title: "Aspire Internship – Official Internship Program Website",
+  description:
+    "The official website of the Aspire Internship Program, built to manage internship Program, registrations, and communication. I worked as the Team Lead and full-time Frontend Developer, handling the complete UI architecture, API integration, user flows, and feature implementation while collaborating with a Django-based backend.",
+  tech: [
+    "Next.js",
+    "React",
+    "Tailwind CSS",
+    "EmailJS",
+    "SweetAlert2",
+    "Swiper",
+    "Django (Backend)"
+  ],
+  image: "/projects/aip.png",
+  live: "https://aspireinternship.thenexgenix.com/",
+},
+
   {
   title: "TorkBiz – Business & Trading Website Template",
   description: "A modern business and trading website template built during my Internship at NexGenix in collaboration with Tork Company. I led the team and implemented multiple pages, core features, theming, and reusable components with Next.js, Bootstrap 5, SASS, and animations.",
