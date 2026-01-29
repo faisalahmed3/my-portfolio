@@ -14,7 +14,7 @@ export const services = [
     title: "Full Stack Development",
     description:
       "Developing scalable MERN stack applications with secure APIs, authentication, database design, and clean architecture.",
-    projects: "18+ Projects",
+    projects: "13+ Projects",
     icon: FaCode,
   },
   {

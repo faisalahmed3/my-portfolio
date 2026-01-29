@@ -88,6 +88,37 @@ export const allProjects = [
   repo: "https://github.com/Disa44ay/Agri-shield", // monorepo (frontend + backend)
 },
 {
+  title: "Tech-Store – Full-Stack E-Commerce Platform",
+  description:
+    "A full-stack e-commerce application built with React and Django. This was a team-driven project where I designed the complete project architecture, structured both frontend and backend workflows, and guided the team through implementation, API design, and integration to deliver a scalable, production-ready system.",
+  tech: [
+    "React",
+    "TypeScript",
+    "Tailwind CSS",
+    "Vite",
+    "Django",
+    "REST API",
+    "SQLite"
+  ],
+  image: "/projects/tech-store.png",
+  live: "https://tech-store.thenexgenix.com/",
+},
+
+{
+  title: "Aspire to Innovate – Technology & Leadership Webinar",
+  description:
+    "A technology-focused webinar where I spoke on MERN stack development and built the official webinar website.",
+  tech: [
+    "React",
+    "Vite",
+    "Tailwind CSS",
+    "DaisyUI",
+  ],
+  image: "/projects/webinar.png",
+  live: "https://aspire-to-innovate-webinar.thenexgenix.com/",
+},
+
+{
   title: "MinoxaCare – Minoxidil Product Landing & Order System",
   description:
     "A high-conversion single-page product landing and ordering application for Minoxidil hair regrowth treatment, designed for Bangladeshi users. The platform educates users, builds trust, and enables Cash on Delivery orders with real-time price calculation and EmailJS-based order notifications.",
@@ -103,6 +134,7 @@ export const allProjects = [
   live: "https://minoxacare.vercel.app",
   repo: "https://github.com/faisalahmed3/minoxacare",
 },
+
   {
   title: "ConnectCare – Doctor Appointment Booking Platform",
   description:
@@ -120,6 +152,20 @@ export const allProjects = [
   image: "/projects/connectcare.png",
   live: "https://connect-care-web.netlify.app/",
   repo: "https://github.com/faisalahmed3/connect-care",
+},
+{
+  title: "InvestMate – Investment Management Frontend Platform",
+  description:
+    "A team-built investment management platform focused on clean UI and user-friendly financial workflows. I led the frontend development by designing the project structure, defining component architecture, and guiding the team through implementation, best practices, and feature integration using Next.js and Tailwind CSS.",
+  tech: [
+    "Next.js",
+    "React",
+    "Tailwind CSS",
+    "SweetAlert2",
+    "React Icons"
+  ],
+  image: "/projects/investmate.png",
+  live: "https://investmate-nextjs.vercel.app/",
 },
 
   {
@@ -159,19 +205,6 @@ export const allProjects = [
   live: "https://flower-mart.netlify.app",
   repo: "https://github.com/faisalahmed3/flower-mart",
 },
-{
-  title: "Aspire to Innovate – Technology & Leadership Webinar",
-  description:
-    "A technology-focused webinar where I spoke on MERN stack development and built the official webinar website.",
-  tech: [
-    "React",
-    "Vite",
-    "Tailwind CSS",
-    "DaisyUI",
-  ],
-  image: "/projects/webinar.png",
-  live: "https://aspire-to-innovate-webinar.thenexgenix.com/",
-}
 
 
   
