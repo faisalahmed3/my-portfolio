@@ -7,6 +7,7 @@ import {
   FaInstagram,
   FaGithub,
   FaEnvelope,
+  FaDownload,
 } from "react-icons/fa";
 
 export default function ProfileCard() {
@@ -136,6 +137,27 @@ export default function ProfileCard() {
             <FaGithub />
           </a>
         </div>
+
+        {/* DOWNLOAD RESUME */}
+        <a
+          href="/resume/Resume-Faisal Ahmed.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="
+            mb-3
+            w-full py-3 rounded-full font-medium
+            border border-emerald-400/40
+            text-emerald-300
+            flex items-center justify-center gap-2
+            hover:text-emerald-400
+            hover:border-emerald-400
+            hover:shadow-[0_0_25px_rgba(52,211,153,0.35)]
+            transition
+          "
+        >
+          <FaDownload />
+          Download Resume
+        </a>
 
         {/* HIRE ME BUTTON */}
         <button
