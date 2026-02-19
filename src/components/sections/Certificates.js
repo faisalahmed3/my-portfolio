@@ -31,6 +31,11 @@ const certificates = [
     image: "/certificates/programing-hero.jpg",
   },
   {
+    title: "Host & Program Facilitator Certificate",
+    description: "Recognized for serving as the Host & Program Facilitator of the Industry-Oriented Skills & Innovation Workshop organized by IT Business Incubator (CUET) in association with the Aspire Internship Program on 17th February 2026.",
+    image: "/certificates/industry-skills-workshop.png"
+  },
+  {
     title: "Hackathon Participation Certificate",
     description:
       "Participated in EDU Hackfest 2025 as a team member and developer.",
@@ -47,8 +52,7 @@ const certificates = [
   description:
     "Recognized for outstanding leadership and contributions as Team Lead of the Campus Ambassadors at EduUp Consultancy.",
   image: "/certificates/campus-ambassador.jpg",
-},
-
+  },
 ];
 
 export default function Certificates() {
