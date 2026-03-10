@@ -10,7 +10,7 @@ const certificates = [
     title: "Aspire Internship Certificate",
     description:
       "Completed internship program with consistent performance and meaningful contributions.",
-    image: "/certificates/loading.png",
+    image: "/certificates/AIP.jpg",
   },
   {
     title: "Intern of the Month",
