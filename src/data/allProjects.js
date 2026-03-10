@@ -27,6 +27,24 @@ export const allProjects = [
   image: "/projects/torkbiz.png",
   repo: "https://github.com/thenexgenix/Torkbiz-bootstrap",
 },
+{
+  title: "RecipeHub – Enhanced Version of Savorly",
+  description:
+    "RecipeHub is the enhanced evolution of my Savorly recipe management platform, redesigned with a premium dark-themed interface and improved user experience. The platform allows users to explore recipes, create and manage their own recipes, update or delete them, and interact through a like system. It includes secure authentication, user-specific dashboards, responsive design, and scalable RESTful APIs powered by MongoDB.",
+  tech: [
+    "React",
+    "Tailwind CSS",
+    "DaisyUI",
+    "Firebase",
+    "Node.js",
+    "Express",
+    "MongoDB",
+  ],
+  image: "/projects/recipehub.png",
+  live: "https://recipehub-inspiration.vercel.app/",
+  client: "https://github.com/faisalahmed3/recipehub",
+  server: "https://github.com/faisalahmed3/savorly-server",
+},
   
   {
   title: "Savorly – Recipe Management Platform",
@@ -46,6 +64,7 @@ export const allProjects = [
   client: "https://github.com/faisalahmed3/savorly-client",
   server: "https://github.com/faisalahmed3/savorly-server",
 },
+
 
   {
   title: "E-Tutor – Full-Stack E-Learning Platform",
