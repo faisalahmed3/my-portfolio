@@ -47,7 +47,7 @@ export default function ProfileCard() {
 
           <p className="flex flex-col text-base text-right text-gray-300">
             Full Stack Developer
-            <span className="text-emerald-200">(MERN)</span>
+            <span className="text-emerald-200">(MERN / Next.js)</span>
           </p>
         </div>
 
@@ -140,7 +140,7 @@ export default function ProfileCard() {
 
         {/* DOWNLOAD RESUME */}
         <a
-          href="/resume/Resume-Faisal Ahmed.pdf"
+          href="/resume/resume.pdf"
           target="_blank"
           rel="noopener noreferrer"
           className="
